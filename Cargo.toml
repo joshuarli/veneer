@@ -6,5 +6,5 @@ edition = "2018"
 
 [dependencies]
 bitflags = "1.2"
-syscall = "0.2"
+sc = { git = "https://github.com/joshuarli/syscall.rs", branch = "chore/use-llvm-asm" }
 libc = {version = "0.2", default-features = false}
